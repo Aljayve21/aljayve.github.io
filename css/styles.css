@@ -1,0 +1,44 @@
+.bgcolor {
+    /* height: 100vh; */
+    background-color: #D6D6D6;
+    background-size: cover;
+    position: relative;
+}
+.navbar-brand {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    color: #562B00 !important;
+    font-size: 40px !important;
+}
+
+.nav-link {
+    color: #7C3F00 !important;
+}
+
+.navbar  {
+    color: #D6D6D6 !important;
+}
+h5 {
+    color:#7C3F00;
+}
+h2, h3 {
+    font-weight: bold !important;
+    color:#633200;
+}
+
+span {
+    color: #BA5E00;
+}
+
+.rounded p-5  w-100 {
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .textv {
+        margin: 5% !important;
+    }
+}
+
+
+
