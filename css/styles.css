@@ -43,6 +43,23 @@ span {
     position: absolute;
  } */
 
+
+ /* footer section */
+
+ .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+ }
+
+ .fa-facebook:hover, .fa-linkedin:hover {
+    color: #d6d6d6;
+ }
+
+ #socials {
+    background-color: #7C3F00;
+    text-align: center;
+ }
+
 @media only screen and (max-width: 768px) {
     .textv {
         margin: 5% !important;
