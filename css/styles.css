@@ -1,9 +1,9 @@
-.bgcolor {
+/* .bgcolor {
     /* height: 100vh; */
-    background-color: #D6D6D6;
+   /* background-color: #D6D6D6;
     background-size: cover;
     position: relative;
-}
+} */
 .navbar-brand {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -33,6 +33,15 @@ span {
 .rounded p-5  w-100 {
     align-items: center;
 }
+
+/* .carousel .item img {
+    left: -9999px  !important; 
+    right: -9999px !important; 
+    margin: 0 auto  !important; 
+    max-width: none !important; 
+    min-width: 100%;
+    position: absolute;
+ } */
 
 @media only screen and (max-width: 768px) {
     .textv {
