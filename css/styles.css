@@ -1,9 +1,19 @@
-/* .bgcolor {
-    /* height: 100vh; */
-   /* background-color: #D6D6D6;
-    background-size: cover;
+.bgcolor {
+    height: max-content;
+    background-color: #D6D6D6;
+    max-width: auto;
     position: relative;
-} */
+} 
+
+/* navbar color */
+    .navbarScroll.navbarDark {
+        background-color: black;
+    }
+
+    .navbar-light {
+        background-color: #d6d6d6 !important;
+    }
+
 .navbar-brand {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
@@ -18,12 +28,23 @@
 .navbar  {
     color: #D6D6D6 !important;
 }
+
+
+/* text section1*/
+
+.textv {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
 h5 {
     color:#7C3F00;
 }
 h2, h3 {
     font-weight: bold !important;
     color:#633200;
+    font-size: 430% !important;
 }
 
 span {
@@ -33,6 +54,10 @@ span {
 .rounded p-5  w-100 {
     align-items: center;
 }
+
+/* avatar */
+
+
 
 /* .carousel .item img {
     left: -9999px  !important; 
@@ -60,9 +85,49 @@ span {
     text-align: center;
  }
 
+ /* Services section */
+
+ .servicesText.card {
+    height: 280px;
+    cursor: pointer;
+ }
+
+ .servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+ }
+
+ .card-title {
+    text-align: center;
+ }
+
+ .card:hover .servicesIcon {
+    color: #7C3F00;
+ }
+
+ .servicesText:hover {
+    border: 1px solid #7C3F00;
+ }
+
 @media only screen and (max-width: 768px) {
     .textv {
         margin: 5% !important;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .avaimage {
+        display: block;
+        border-radius: 50% !important;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+        
     }
 }
 
