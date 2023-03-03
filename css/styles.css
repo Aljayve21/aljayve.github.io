@@ -4,16 +4,25 @@ html, body {
     font-family: Poppins !important;
 }
 .bgcolor {
-    height: max-content;
+    height: 100vh;
     background-color: #D6D6D6;
-    max-width: auto;
+    /* max-width: auto; */
+    background-size: cover;
     position: relative;
 } 
 
 /* navbar color */
-    .navbarScroll.navbarDark {
-        background-color: black;
-    }
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='coral' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+.navbar-toggler{
+  border: 2px solid #562B00 !important;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
 
     .navbar-light {
         background-color: #d6d6d6 !important;
@@ -31,7 +40,7 @@ html, body {
 }
 
 .navbar  {
-    color: #D6D6D6 !important;
+    color: #562B00 !important;
 }
 
 
@@ -40,7 +49,8 @@ html, body {
 .textv {
     padding-left: 15%;
     /* padding-right: 15%; */
-    
+    margin-top: 30%;
+    margin-bottom: 30%;
 }
 
 
@@ -71,8 +81,12 @@ span {
         box-shadow: 25px -25px #c5c5c5 !important;
         
         max-width: 60%;
+        margin-top: 20% !important;
+        /* margin-bottom: 30%; */
 }
 
+/* about */
+    
 
 /* .carousel .item img {
     left: -9999px  !important; 
@@ -130,8 +144,11 @@ span {
        padding-left: 19%;
        padding-right: 19%;
        width: 100%;
-    
+        /* margin-top: -21% !important;
+        margin-bottom: 5% !important; */
+        /* transform: translate(5%, -99%); */
     }
+    
 
     .blue23 {
         /* font-size: 195% !important; */
@@ -141,10 +158,17 @@ span {
         margin-left: auto;
         margin-right: auto;
         font-weight: bolder !important;
+        font-size: 200% !important;
+        top: 50%;
+        left: 50%;
     }
 
     .blue-32 {
         font-size: 14px;
+    }
+
+    .blue32 {
+        font-size: 5vw !important;
     }
 
     .row {
@@ -165,6 +189,11 @@ span {
 
     .col-md-6 {
         margin-bottom: 1px !important;
+    }
+
+    .ginger {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
