@@ -19,7 +19,8 @@ html, body {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='coral' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
 .navbar-toggler{
-  border: 2px solid #562B00 !important;
+  border: none !important;
+  color: #562B00 !important;
 }
 .navbar-toggler:focus{
   box-shadow: none;
@@ -159,9 +160,9 @@ span {
         margin-left: auto;
         margin-right: auto;
         font-weight: bolder !important;
-        font-size: 200% !important;
-        top: 50%;
-        left: 50%;
+        font-size: 5vw !important;
+        /* top: 50%;
+        left: 50%; */
     }
 
     .blue-32 {
