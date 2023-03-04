@@ -143,8 +143,8 @@ span {
 
 @media only screen and (max-width: 768px) {
     .textv {
-       padding-left: 19%;
-       padding-right: 19%;
+       /* padding-left: 19%;
+       padding-right: 19%; */
        width: 100%;
         /* margin-top: -21% !important;
         margin-bottom: 5% !important; */
@@ -152,7 +152,7 @@ span {
     }
     
 
-    .blue23 {
+    .blue23 h2 {
         /* font-size: 195% !important; */
         font-size: 5vw !important;
         line-height: 99%;
@@ -198,6 +198,8 @@ span {
         flex-direction: column-reverse;
     }
 }
+
+/* @media only and screen (max-width: 328px) */
 
 
 
