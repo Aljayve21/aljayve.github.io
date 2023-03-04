@@ -59,8 +59,8 @@ html, body {
 h5 {
     color:#7C3F00;
 }
-.blue {
-    font-weight: bold !important;
+h2 {
+    font-weight: bolder !important;
     color:#633200;
     font-size: 4vw !important;
     margin-left: auto;
@@ -119,7 +119,7 @@ span {
  /* Services section */
 
  .servicesText.card {
-    height: 280px;
+    /* height: 330px; */
     cursor: pointer;
  }
 
@@ -161,6 +161,7 @@ span {
         margin-right: auto;
         font-weight: bolder !important;
         font-size: 7vw !important;
+        color: #633200 !important;
         /* top: 50%;
         left: 50%; */
     }
