@@ -119,7 +119,7 @@ span {
  /* Services section */
 
   .servicesText.card {
-    height: 97%;
+    /* height: 97%; */
     cursor: pointer;
  }
 
