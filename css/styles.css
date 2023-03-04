@@ -59,7 +59,7 @@ html, body {
 h5 {
     color:#7C3F00;
 }
-h2 {
+.blue {
     font-weight: bold !important;
     color:#633200;
     font-size: 4vw !important;
@@ -141,7 +141,7 @@ span {
     border: 1px solid #7C3F00;
  }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .textv {
        /* padding-left: 19%;
        padding-right: 19%; */
@@ -152,7 +152,7 @@ span {
     }
     
 
-    .blue23 h2 {
+    .blue23{
         /* font-size: 195% !important; */
         font-size: 5vw !important;
         line-height: 99%;
@@ -160,10 +160,14 @@ span {
         margin-left: auto;
         margin-right: auto;
         font-weight: bolder !important;
-        font-size: 5vw !important;
+        font-size: 7vw !important;
         /* top: 50%;
         left: 50%; */
     }
+
+    /* h2 {
+        font-size: 7vw !important;
+    } */
 
     .blue-32 {
         font-size: 14px;
@@ -199,7 +203,12 @@ span {
     }
 }
 
-/* @media only and screen (max-width: 328px) */
+/* @media only screen and (max-width: 425px) {
+    .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+} */
 
 
 
