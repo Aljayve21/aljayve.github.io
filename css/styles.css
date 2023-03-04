@@ -118,8 +118,8 @@ span {
 
  /* Services section */
 
- .servicesText.card {
-    /* height: 330px; */
+  .servicesText.card {
+    height: 97%;
     cursor: pointer;
  }
 
@@ -127,7 +127,7 @@ span {
     font-size: 36px;
     text-align: center;
     width: 100%;
- }
+ } 
 
  .card-title {
     text-align: center;
@@ -139,7 +139,7 @@ span {
 
  .servicesText:hover {
     border: 1px solid #7C3F00;
- }
+ } 
 
 @media only screen and (max-width: 767px) {
     .textv {
