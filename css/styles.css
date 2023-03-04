@@ -4,7 +4,7 @@ html, body {
     font-family: Poppins !important;
 }
 .bgcolor {
-    height: 100%;
+    height: 100vh;
     background-color: #D6D6D6;
     /* max-width: auto; */
     padding-bottom: 10%;
