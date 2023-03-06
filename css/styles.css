@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-html, body {
-    font-family: Poppins !important;
+:root {
+    --darkbrown: #562B00;
 }
-.bgcolor {
-    height: 100vh;
-    background-color: #D6D6D6;
-    /* max-width: auto; */
-    padding-bottom: 10%;
+
+
+
+html, body {
+    font-family: "Poppins" !important;
+}
+.bgimage {
+    width: 110%;
+    background-color: #d6d6d6;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-} 
+}  
 
 /* navbar color */
-
+.navbarScroll.navbarDark {
+    background-color: #b4b4b4;
+}
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='coral' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2886, 43, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
 .navbar-toggler{
   border: none !important;
@@ -27,14 +34,14 @@ html, body {
 }
 
     .navbar-light {
-        background-color: #d6d6d6 !important;
+        background-color: #D6D6D6 !important;
     }
 
 .navbar-brand {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     color: #562B00 !important;
-    font-size: 40px !important;
+    font-size: 30px !important;
 }
 
 .nav-link {
@@ -75,6 +82,33 @@ span {
     align-items: center;
 }
 
+/* button */
+.container1 {
+    display: grid;
+    grid-template-columns: 130px 225px 5px;
+    padding: 10px;
+}
+
+.viewcv {
+    border-radius: 8px;
+    background-color: #562B00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 4px 4px   #b4b4b4;
+}
+.downloadcv {
+    border-radius: 8px;
+    background-color: #fff;
+    color: #562B00;
+    padding: 10px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 4px 4px   #b4b4b4;
+}
 /* avatar */
 .avaimage {
     display: block;
@@ -119,7 +153,7 @@ span {
  /* Services section */
 
   .servicesText.card {
-    /* height: 97%; */
+    height: 280ox;
     cursor: pointer;
  }
 
@@ -143,10 +177,10 @@ span {
 
 @media only screen and (max-width: 767px) {
     /* .bgcolor {
-        height: 100vh;
-        background-color: #D6D6D6; */
-        /* max-width: auto; */
-        /* padding-bottom: 10%;
+        height: 100% !important;
+        background-color: #D6D6D6;
+        max-width: auto;
+        padding-bottom: 10%;
         background-size: cover;
         position: relative;
     }  */
@@ -201,6 +235,17 @@ span {
         margin-right: auto; */
         /* max-width: 40%; */
         
+    }
+
+    .container1 {
+        display: block;
+        padding-left: 15vw;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .col {
+        padding: 10px;
     }
 
     .col-md-6 {

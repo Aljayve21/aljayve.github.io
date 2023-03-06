@@ -27,7 +27,7 @@
 <body>
     <!--Header Section-->
     
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
         <div class="container">
           <a class="navbar-brand pl-4" href="#home">Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,51 +44,31 @@
           </div>
         </div>
       </nav>
-
-      <!-- <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-                
-            </div>
-        </div>
-    </nav> -->
-    <!-- <script src="script/script.js"></script> -->
+    <script src="script/script.js"></script>
     <!-- main banner -->
-    <section class="bgcolor" id="home">
+    <section class="bgimage" id="home">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row ">
          
             <div class="col-md-6 my-auto" data-aos="fade-right" data-aos-offset="300" data-aos >
               <div class="textv  my-5 ">
                 <h5 class="blue-32 m-0">Welcome!</h5>
                 <h2 class="blue23">Hi ! i’m Aljayve<br>
                 Frontend <span>Developer</span></h2>
+                <div class="container1 mx-auto">
+                  <div class="asd">
+                    <button type="button" class="viewcv">View my CV</button>
+                  </div>
+                  <div class="asd">
+                    
+                    <button type="button" class="downloadcv">Download CV</button>
+                  </div>
+                </div>
               </div>
             </div>
             
-            <div data-aos="fade-down" class="col-md-6 ">
-                <img src="img/avatar.jpg" class="avaimage w-100 mx-auto" alt="Responsive image">
+            <div data-aos="fade-down" class="col-md-6 mt-5 px-3">
+                <img src="img/avatar.jpg" class="avaimage w-100 mx-5 mb-5" alt="Responsive image">
             </div>
           </div>
         
@@ -141,13 +121,13 @@
     </section>
 
     <!-- Services Section -->
-    <!-- <section id="services">
+    <section id="services">
       <div class="container">
         <h1 class="text-center">Services</h1>
         <div class="row">
 
 
-          <div class="col-lg-6 mt-4" data-aos="flip-up">
+          <div class="col-lg-4 mt-4" data-aos="flip-up">
             <div class="card servicesText">
               <div class="card-body">
                 <i class="fas servicesIcon fa-clock "></i>
@@ -158,7 +138,7 @@
           </div>
 
 
-          <div class="col-lg-6 mt-4 mx-auto w-100"  data-aos="flip-up">
+          <div class="col-lg-4 mt-4"  data-aos="flip-up">
             <div class="card servicesText">
               <div class="card-body">
                 <i class="fas servicesIcon fa-layer-group"></i>
@@ -170,7 +150,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 mt-4 mx-auto w-100" data-aos="flip-up">
+          <div class="col-lg-4 mt-4" data-aos="flip-up">
             <div class="card servicesText">
               <div class="card-body">
                 <i class="fas servicesIcon fa-check-circle"></i>
@@ -185,9 +165,9 @@
         </div>
       </div>
       
-    </section> -->
+    </section>
 
-    <section id="services">
+    <!-- <section id="services">
       <div class="container">
           <h1 class="text-center">Services</h1>
           <div class="row">
@@ -225,7 +205,7 @@
                       </div>
                   </div>  
               </div>
-          </div>
+          </div> -->
 
           <!-- <div class="row">
               <div class="col-lg-4 mt-4">
@@ -287,14 +267,14 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="/img/Untitled.png" class="d-block w-25 mx-auto" alt="resume">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="/img/dog.png" class="d-block w-100" alt="Dog Photo Gallery">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -314,36 +294,18 @@
 
     <!-- Contact Section -->
     <section id="contact">
-      <div class="container mt-3 contactContent">
-        <h1 class="text-center">Contact Me</h1>
+      <div class="container mt-3 ">
+        <h1 class="text-center  mb-5">Contact Me</h1>
 
-        <div class="row mt-4">
-          <div class="col-lg-6">
+        <div class="container px-5">
 
-            <!-- location map -->
-
-            <!-- <div style="overflow:hidden;max-width:90%;width:500px;height:500px;" >
-              <div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;">
-                <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Santol,+Balagtas,+Bulacan,+Philippines&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                </iframe>
-              </div>
-              <a class="the-googlemap-enabler" href="https://www.bootstrapskins.com/themes" id="get-data-for-embed-map">premium bootstrap themes</a>
-              <style>
-              #my-map-canvas img{max-height:none;max-width:none!important;background:none!important;}
-              </style>
-              </div>
-          </div> -->
-
-          <div class="col-lg-6">
-            <div class="py-auto">
+          
+            
             <!-- forms format -->
             <p><strong>Email: </strong> aljayve.capara256@gmail.com</p>
             <p><strong>Contact number: </strong> +639650545074</p>
-          </div>
-            <button type="button" class="btn btn-success mx-auto my-3">Download CV</button>
-            <button type="button" class="btn btn-success mx-3  my-3">View my CV</button>
-          </div>
-        </div>
+            
+        
       </div>
     </section>
 
