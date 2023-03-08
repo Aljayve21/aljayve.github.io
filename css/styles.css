@@ -9,8 +9,8 @@
 html, body {
     font-family: "Poppins" !important;
 }
-.bgimage {
-    height: 100vh;
+.bgcolor {
+    height: 100%;
     background-color: #d6d6d6;
     background-size: cover;
     position: relative;
