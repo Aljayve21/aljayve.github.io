@@ -56,10 +56,11 @@ html, body {
 /* text section1*/
 
 .textv {
-    /* padding-left: 15%; */
+    padding-left: 15%;
     /* padding-right: 15%; */
     margin-top: 30%;
     margin-bottom: 30%;
+    
 }
 
 
@@ -67,6 +68,7 @@ h5 {
     color:#7C3F00;
 }
 h2 {
+    
     font-weight: bolder !important;
     color:#633200;
     font-size: 4vw !important;
@@ -100,6 +102,17 @@ h2 {
     margin: 4px 2px;
     cursor: pointer;
     box-shadow: 4px 4px   #b4b4b4;
+    text-decoration: none;    
+}
+
+.viewcv:active {
+    background-color: #fff;
+    color: #562B00;
+}
+
+.viewcv:hover {
+    background-color: #fff;
+    color:#562B00
 }
 .downloadcv {
     border-radius: 8px;
@@ -110,6 +123,18 @@ h2 {
     margin: 4px 2px;
     cursor: pointer;
     box-shadow: 4px 4px   #b4b4b4;
+    text-decoration: none;
+}
+
+
+.downloadcv:active {
+    background-color: #562B00;
+    color: #fff;
+}
+
+.downloadcv:hover {
+    background-color: #562B00;
+    color: #fff;
 }
 /* avatar */
 .avaimage {
@@ -172,19 +197,15 @@ h2 {
     
     .textv {
        width: 100%;
+       padding-left: 0;
     }
-
-    /* .bgcolor {
-        margin: 0;
-        padding: 0;
-    } */
     
 
     .blue23{
         line-height: 99%;
         word-spacing: 2px;
         font-weight: bolder !important;
-        font-size: 7vw !important;
+        font-size: 8vw !important;
         color: #633200 !important;
         text-align: center;
     }
@@ -198,7 +219,6 @@ h2 {
     .row {
         display: flex;
         flex-direction: column-reverse;
-        
     }
 
     .avaimage {
@@ -210,27 +230,18 @@ h2 {
     }
 
     .container1 {
-        display: block;
+        display: block !important;
         text-align: center;
         padding-top: 20px;
         padding-bottom: 10px;
     }
 
-    /* .col {
-        padding: 10px;
-    } 
-
-    .col-md-6 {
-        margin-bottom: 1px !important;
-    } */
-
-    /* .ginger {
-        display: flex;
-        flex-direction: column-reverse;
-    } */
-
     .avaimage {
         margin-top: 30% !important;
+    }
+
+    .asd {
+        margin-top: 30px;
     }
 }
 
