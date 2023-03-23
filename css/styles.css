@@ -57,7 +57,7 @@ html, body {
 
 .textv {
     padding-left: 15%;
-    /* padding-right: 15%; */
+    
     margin-top: 30%;
     margin-bottom: 30%;
     
@@ -80,9 +80,7 @@ h2 {
     color: #BA5E00;
 }
 
-/* .rounded p-5  w-100 {
-    align-items: center;
-} */
+
 
 /* button */
 .container1 {
@@ -141,10 +139,10 @@ h2 {
     display: block;
         border-radius: 1px 1px 1px 100px !important;
         box-shadow: 25px -25px #c5c5c5 !important;
-        
+        mix-blend-mode: multiply;
         max-width: 60%;
         margin-top: 20% !important;
-        /* margin-bottom: 30%; */
+       
 }
 
 /* about */
